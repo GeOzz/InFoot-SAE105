@@ -9,6 +9,7 @@ Le but de cette SAE était de mettre en avant une thématique souhaitée et j'ai
 👥 Membres et parties réalisées :
 
 Sofiane ALIANE : Création du site et de chaque page dans son entièreté ;
+
 Enzo DERNOIS : Structure de la page Partenaires (WS106).
 
 
