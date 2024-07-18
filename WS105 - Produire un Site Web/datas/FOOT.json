@@ -1,0 +1,402 @@
+[
+  {
+    "Rang": 1,
+    "Nom": "Messi",
+    "Prénom": "Lionel",
+    "Âge": 35,
+    "Pays": "Argentine",
+    "Période d'activité": "2003-présent"
+  },
+  {
+    "Rang": 2,
+    "Nom": "Ronaldo",
+    "Prénom": "Cristiano",
+    "Âge": 37,
+    "Pays": "Portugal",
+    "Période d'activité": "2002-présent"
+  },
+  {
+    "Rang": 3,
+    "Nom": "Pelé",
+    "Prénom": "Edson",
+    "Âge": 82,
+    "Pays": "Brésil",
+    "Période d'activité": "1956-1977"
+  },
+  {
+    "Rang": 4,
+    "Nom": "Maradona",
+    "Prénom": "Diego Armando",
+    "Âge": 61,
+    "Pays": "Argentine",
+    "Période d'activité": "1976-1997"
+  },
+  {
+    "Rang": 5,
+    "Nom": "Cruyff",
+    "Prénom": "Johan",
+    "Âge": 75,
+    "Pays": "Pays-Bas",
+    "Période d'activité": "1964-1984"
+  },
+  {
+    "Rang": 6,
+    "Nom": "Beckenbauer",
+    "Prénom": "Franz",
+    "Âge": 76,
+    "Pays": "Allemagne",
+    "Période d'activité": "1965-1983"
+  },
+  {
+    "Rang": 7,
+    "Nom": "Di Stéfano",
+    "Prénom": "Alfredo",
+    "Âge": 89,
+    "Pays": "Argentine",
+    "Période d'activité": "1945-1971"
+  },
+  {
+    "Rang": 8,
+    "Nom": "Platini",
+    "Prénom": "Michel",
+    "Âge": 68,
+    "Pays": "France",
+    "Période d'activité": "1972-1987"
+  },
+  {
+    "Rang": 9,
+    "Nom": "Zidane",
+    "Prénom": "Zinédine",
+    "Âge": 50,
+    "Pays": "France",
+    "Période d'activité": "1989-2006"
+  },
+  {
+    "Rang": 10,
+    "Nom": "Ronaldinho",
+    "Prénom": "Gaúcho",
+    "Âge": 44,
+    "Pays": "Brésil",
+    "Période d'activité": "1998-2015"
+  },
+  {
+    "Rang": 11,
+    "Nom": "Ronaldo",
+    "Prénom": "Luís",
+    "Âge": 45,
+    "Pays": "Brésil",
+    "Période d'activité": "1994-2011"
+  },
+  {
+    "Rang": 12,
+    "Nom": "Van Basten",
+    "Prénom": "Marco",
+    "Âge": 59,
+    "Pays": "Pays-Bas",
+    "Période d'activité": "1981-1995"
+  },
+  {
+    "Rang": 13,
+    "Nom": "Baresi",
+    "Prénom": "Franco",
+    "Âge": 65,
+    "Pays": "Italie",
+    "Période d'activité": "1977-1997"
+  },
+  {
+    "Rang": 14,
+    "Nom": "Romário",
+    "Prénom": "de Souza",
+    "Âge": 61,
+    "Pays": "Brésil",
+    "Période d'activité": "1985-2008"
+  },
+  {
+    "Rang": 15,
+    "Nom": "Garrincha",
+    "Prénom": "Manoel",
+    "Âge": 82,
+    "Pays": "Brésil",
+    "Période d'activité": "1953-1971"
+  },
+  {
+    "Rang": 16,
+    "Nom": "Charlton",
+    "Prénom": "Bobby",
+    "Âge": 93,
+    "Pays": "Angleterre",
+    "Période d'activité": "1956-1973"
+  },
+  {
+    "Rang": 17,
+    "Nom": "Hagi",
+    "Prénom": "Gheorghe",
+    "Âge": 63,
+    "Pays": "Roumanie",
+    "Période d'activité": "1983-2001"
+  },
+  {
+    "Rang": 18,
+    "Nom": "Yashin",
+    "Prénom": "Lev",
+    "Âge": 93,
+    "Pays": "URSS",
+    "Période d'activité": "1954-1971"
+  },
+  {
+    "Rang": 19,
+    "Nom": "Moore",
+    "Prénom": "Bobby",
+    "Âge": 84,
+    "Pays": "Angleterre",
+    "Période d'activité": "1958-1974"
+  },
+  {
+    "Rang": 20,
+    "Nom": "Neeskens",
+    "Prénom": "Johan",
+    "Âge": 77,
+    "Pays": "Pays-Bas",
+    "Période d'activité": "1967-1984"
+  },
+  {
+    "Rang": 21,
+    "Nom": "Baggio",
+    "Prénom": "Roberto",
+    "Âge": 55,
+    "Pays": "Italie",
+    "Période d'activité": "1985-2004"
+  },
+  {
+    "Rang": 22,
+    "Nom": "Rivera",
+    "Prénom": "Gianni",
+    "Âge": 79,
+    "Pays": "Italie",
+    "Période d'activité": "1960-1979"
+  },
+  {
+    "Rang": 23,
+    "Nom": "Eusebio",
+    "Prénom": "da Silva",
+    "Âge": 71,
+    "Pays": "Portugal",
+    "Période d'activité": "1961-1979"
+  },
+  {
+    "Rang": 24,
+    "Nom": "Rivellino",
+    "Prénom": "Rivelino",
+    "Âge": 77,
+    "Pays": "Brésil",
+    "Période d'activité": "1964-1984"
+  },
+  {
+    "Rang": 25,
+    "Nom": "Weah",
+    "Prénom": "George",
+    "Âge": 59,
+    "Pays": "Liberia",
+    "Période d'activité": "1987-2003"
+  },
+  {
+    "Rang": 26,
+    "Nom": "Best",
+    "Prénom": "George",
+    "Âge": 82,
+    "Pays": "Irlande du Nord",
+    "Période d'activité": "1963-1984"
+  },
+  {
+    "Rang": 27,
+    "Nom": "Modric",
+    "Prénom": "Lucas",
+    "Âge": 38,
+    "Pays": "Croatie",
+    "Période d'activité": "2000-présent"
+  },
+  {
+    "Rang": 28,
+    "Nom": "Yashin",
+    "Prénom": "Lev",
+    "Âge": 93,
+    "Pays": "URSS",
+    "Période d'activité": "1954-1971"
+  },
+  {
+    "Rang": 29,
+    "Nom": "Mitroglou",
+    "Prénom": "Kostas",
+    "Âge": 37,
+    "Pays": "Grèce",
+    "Période d'activité": "2005-2022"
+  },
+  {
+    "Rang": 30,
+    "Nom": "Kroos",
+    "Prénom": "Toni",
+    "Âge": 34,
+    "Pays": "Allemagne",
+    "Période d'activité": "2002-présent"
+  },
+  {
+    "Rang": 31,
+    "Nom": "Mbappé",
+    "Prénom": "Kylian",
+    "Âge": 25,
+    "Pays": "France",
+    "Période d'activité": "2011-présent"
+  },
+  {
+    "Rang": 32,
+    "Nom": "Haaland",
+    "Prénom": "Erling",
+    "Âge": 23,
+    "Pays": "Norvège",
+    "Période d'activité": "2013-présent"
+  },
+  {
+    "Rang": 33,
+    "Nom": "Germain",
+    "Prénom": "Valère",
+    "Âge": 33,
+    "Pays": "France",
+    "Période d'activité": "2007-présent"
+  },
+  {
+    "Rang": 34,
+    "Nom": "Müller",
+    "Prénom": "Gerd",
+    "Âge": 85,
+    "Pays": "Germany",
+    "Période d'activité": "1964-1981"
+  },
+  {
+    "Rang": 35,
+    "Nom": "Puskás",
+    "Prénom": "Ferenc",
+    "Âge": 92,
+    "Pays": "Hungary",
+    "Période d'activité": "1943-1966"
+  },
+  {
+    "Rang": 36,
+    "Nom": "Henry",
+    "Prénom": "Thierry",
+    "Âge": 45,
+    "Pays": "France",
+    "Période d'activité": "1994-2014"
+  },
+  {
+    "Rang": 37,
+    "Nom": "Hernández",
+    "Prénom": "Xavi",
+    "Âge": 41,
+    "Pays": "Spain",
+    "Période d'activité": "1998-2018"
+  },
+  {
+    "Rang": 38,
+    "Nom": "Bergkamp",
+    "Prénom": "Dennis",
+    "Âge": 53,
+    "Pays": "Netherlands",
+    "Période d'activité": "1986-2006"
+  },
+  {
+    "Rang": 39,
+    "Nom": "Van Nistelrooy",
+    "Prénom": "Ruud",
+    "Âge": 45,
+    "Pays": "Netherlands",
+    "Période d'activité": "1993-2012"
+  },
+  {
+    "Rang": 40,
+    "Nom": "Figo",
+    "Prénom": "Luís",
+    "Âge": 49,
+    "Pays": "Portugal",
+    "Période d'activité": "1990-2009"
+  },
+  {
+    "Rang": 41,
+    "Nom": "González",
+    "Prénom": "Raúl",
+    "Âge": 45,
+    "Pays": "Spain",
+    "Période d'activité": "1994-2015"
+  },
+  {
+    "Rang": 42,
+    "Nom": "Zico",
+    "Prénom": "Arthur",
+    "Âge": 78,
+    "Pays": "Brazil",
+    "Période d'activité": "1971-1986"
+  },
+  {
+    "Rang": 43,
+    "Nom": "Carlos",
+    "Prénom": "Roberto",
+    "Âge": 51,
+    "Pays": "Brazil",
+    "Période d'activité": "1992-2006"
+  },
+  {
+    "Rang": 44,
+    "Nom": "Matthäus",
+    "Prénom": "Lothar",
+    "Âge": 61,
+    "Pays": "Germany",
+    "Période d'activité": "1979-2000"
+  },
+  {
+    "Rang": 45,
+    "Nom": "Maldini",
+    "Prénom": "Paolo",
+    "Âge": 53,
+    "Pays": "Italy",
+    "Période d'activité": "1985-2009"
+  },
+  {
+    "Rang": 46,
+    "Nom": "Drogba",
+    "Prénom": "Didier",
+    "Âge": 43,
+    "Pays": "Côte d'Ivoire",
+    "Période d'activité": "1998-2014"
+  },
+  {
+    "Rang": 47,
+    "Nom": "Ibrahimovic",
+    "Prénom": "Zlatan",
+    "Âge": 41,
+    "Pays": "Sweden",
+    "Période d'activité": "1999-2023"
+  },
+  {
+    "Rang": 48,
+    "Nom": "Vieira",
+    "Prénom": "Patrick",
+    "Âge": 46,
+    "Pays": "France",
+    "Période d'activité": "1992-2010"
+  },
+  {
+    "Rang": 49,
+    "Nom": "Gerrard",
+    "Prénom": "Steven",
+    "Âge": 41,
+    "Pays": "United Kingdom",
+    "Période d'activité": "1998-2015"
+  },
+  {
+    "Rang": 50,
+    "Nom": "Puyol",
+    "Prénom": "Carles",
+    "Âge": 41,
+    "Pays": "Spain",
+    "Période d'activité": "1999-2014"
+  }
+]

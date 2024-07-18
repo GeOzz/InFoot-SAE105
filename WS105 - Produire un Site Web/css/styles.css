@@ -1,0 +1,856 @@
+  /* // Body + NavBar // */
+
+
+body{
+  width: 100%;
+  margin: 0 auto;
+  background: #100437;
+  color: #FFFFFF;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #9C83F6 transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 18px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9C83F6;
+  border-radius: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+  /* // Animation // */
+
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+  /* --HEADER-- */
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Montserrat";
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+  }
+  
+  header > nav > ul > li {
+    margin: 0 30px 0 30px;
+  }
+  
+  #logo a {
+    font-size: 75px;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0px 5px 8px #9C83F6;
+    transition: color 0.4s;
+  }
+  
+  #logo a:hover {
+    color: #9C83F6;
+  }
+  
+  #nav {
+    list-style: none;
+    display: inline-flex;
+    font-weight: bold;
+  }
+  
+  #nav > li > a {
+    text-decoration: none;
+    transition: 0.4s;
+    color: #FFFFFF;
+    position: relative;
+  }
+  
+  #nav > li > a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #9C83F6;
+    transition: width 0.4s ease;
+    position: absolute;
+    bottom: -3px;
+  }
+  
+  #nav > li > a:hover::after,
+  #nav > li > a.actif::after {
+    width: 100%;
+  }
+  
+  #nav > li > a.actif {
+    color: #FFFFFF; 
+  }
+  
+
+/* --INDEX-- */
+
+main{
+  width:100%;
+  display:block;
+  margin:0px;
+  padding:0px;
+}
+
+
+.fixed-fond {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  display:flex;
+  align-items: center;
+  justify-self: center;
+
+
+}
+.w-full{
+  width: 100%;
+}
+.h-full{
+  height: 100%;
+}
+.relative{
+  position:relative;
+}
+.video-absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+  object-position: center;
+
+  display: inline-block;
+ 
+}
+
+#fond-foot {
+  display: block;
+  width: 100%;
+
+  position:relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+#titre {
+  position: relative;
+  font-weight: 900;
+  width:100%;
+  color: #F5F7F7;
+  text-shadow: 0px 20px 35px #000407;
+  text-align: center;
+  transition: color 0.4s, transform 0.4s ease-in-out;
+}
+
+#titre:hover {
+  color: #9C83F6;
+  transform: scale(1.05);
+}
+
+#index-50 {
+  width:100%;
+
+  font-size: 40px;
+  text-shadow: 0px 10px 12px #000000;
+}
+
+#index-foot {
+  width:100%;
+
+  font-size: 80px;
+  font-family: "Lemon";
+  text-shadow: 0px 10px 12px #000000;
+}
+
+#animated-football-emoji {
+  font-size: 50px; 
+  margin-top: 10px; 
+  animation: rotate 2s linear infinite; 
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); 
+  }
+}
+
+/* --ACCUEIL-- */
+
+h1 {
+  color: #FFFFFF;
+  font-family: "Alfa  One";
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0px 5px 8px #9C83F6;
+}
+
+#histoire-foot{
+
+  position:relative;
+
+}
+#histoire-foot, #planete-foot {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+}
+
+#histoire-foot-texte {
+  width: 50%;
+  display: block;
+
+  margin-right: 20px;
+  line-height: 1.5;
+  clear: both;
+
+  text-align: justify;
+
+}
+
+#histoire-foot-image{
+  width: 48%;
+  height: 270px;
+ 
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#planete-foot{
+  position:relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+#histoire-foot-image,
+#planete-foot-image {
+
+  height: 270px;
+  background-position: 0% 26%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+
+}
+
+#histoire-foot-image::before,
+#planete-foot-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(59, 38, 129, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#histoire-foot-image:hover::before,
+#planete-foot-image:hover::before {
+  opacity: 1;
+}
+
+#histoire-foot-image:hover,
+#planete-foot-image:hover {
+  transform: scale(1.05);
+  filter: grayscale(50%);
+}
+
+#histoire-foot-texte > p,
+
+#planete-foot-texte {
+
+  text-align: right;
+  margin-left: 20px;
+
+  line-height: 1.5;
+}
+
+#planete-foot-image {
+  width: 48%;
+  height: 270px;
+  background: url(../images/Messi.mp4);
+  background-position: 50% 38%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/* ----- DONNEES ----- */
+
+#main_donnees {
+  text-align: center;
+  width: 80%; 
+  max-width: 1080px;
+  margin: 20px auto; 
+  padding: 20px;
+}
+
+#tableau {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.8); 
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+#tableau th,
+#tableau td {
+  padding: 20px; 
+  text-align: center;
+  color: #fff;
+}
+
+#tableau tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.6); 
+  transition: background-color 0.3s ease; 
+}
+
+.dataTables_wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#tableau_wrapper {
+  margin-bottom: 30px; 
+}
+
+.dataTables_wrapper:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/Ball.jpg);
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+  pointer-events: none; 
+}
+
+.dataTables_paginate .paginate_button.next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid #9C83F6;
+}
+
+.dataTables_info {
+  margin-bottom: 30px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background-color: #fff;
+  color: #9C83F6;
+  border: 1px solid #9C83F6;
+}
+
+.dataTables_filter input {
+  color: #fff;
+}
+
+.dataTables_length select, .dataTables_filter input {
+  color: #fff;
+}
+
+.dataTables_filter {
+  margin-bottom: 20px; 
+}
+
+
+/* --CONTACT-- */
+
+.contact-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/Barca.jpg);
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.contact-page .contact-form {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 170px auto;
+}
+
+.contact-page label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-page .contact-form input,
+.contact-page .contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-page input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-page input[type="submit"]:hover {
+  background-color: #fff;
+  color: #9C83F6;
+  border: 1px solid #fff;
+}
+
+
+/* --MAIL-- */
+
+
+
+.image-tel-main {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-tel-form {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.retour-button {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #9C83F6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.retour-button:hover {
+  background-color: #9C83F6;
+  color: #fff;
+}
+  
+/* --GALERIE-- */
+
+.galerie-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/Neymar.jpg);
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+  pointer-events: none; 
+}
+
+.galerie-background {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+main {
+    text-align: center;
+
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Added transition property */
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1); /* Added zoom effect */
+}
+
+.gallery-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(59, 38, 129, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover:before {
+  opacity: 1;
+}
+
+/* --IMAGE TEL-- */
+
+
+.image-tel-main {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-tel-form {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.retour-button {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #9C83F6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.retour-button:hover {
+  background-color: #9C83F6;
+  color: #fff;
+}
+
+/* --PARTENAIRES-- */
+
+.partenaire-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/Messi.jpg);
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+  pointer-events: none; 
+}
+
+.partenaire-background {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.center-container{
+  margin: 0 auto;
+  width: 1080px;
+  margin-bottom: 30px;
+}
+.center-container p{
+  margin-bottom: 20px;
+  text-align: justify;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18.1px;
+}
+.card > h3{
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+.images-container{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.images-container img{
+  display: block;
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.images-container img:hover{
+  transform: scale(1.01);
+}
+
+.images-container > li > a{
+  margin: unset;
+  font-size: 20px;
+  font-family: "Alfa One";
+  line-height: 28px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+  width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.cards-container > a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.card-container{
+  position: relative;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.60);
+  box-shadow: 0 0px 10px #000;
+}
+
+.card-container:hover{
+  cursor: pointer;
+}
+
+.card-container:hover > div:not(.card){
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  backdrop-filter: blur(2.5px)
+                   grayscale(50%);
+  -webkit-backdrop-filter: blur(2.5px)
+                   grayscale(50%);
+}
+
+.card-container > p{
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  font-size: 15px;
+  font-family: "Montserrat";
+  transition: 0.3s;
+  padding: 15px 0;
+  background-color: #000;
+}
+
+.card-container:hover > p{
+  opacity: 1;
+}
+
+.card{
+  width: calc(100% - 40px);
+  border-radius: 5px;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+.card-content{
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  gap: 20px;
+  align-items: center;
+
+}
+.img-container > img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#livrables{
+  margin: 20px auto 50px auto;
+  width: fit-content;
+}
+
+#livrables a{
+  text-decoration: none
+}
+
+#charte-projet, #planning{
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 15px 0 15px;
+  transition: 0.4s;
+}
+
+#charte-projet a, #planning a{
+  padding: 10px;
+  text-decoration: dashed;
+  font-family: "Alfa One";
+  color: #000;
+  transition: 0.4s;
+}
+
+#charte-projet:hover, #planning:hover{
+  background-color: #9C83F6;
+}
+
+#charte-projet:hover a, #planning:hover a{
+  color: #FFF;
+}
+
+/* --FOOTER-- */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Oswald", sans-serif; 
+  font-size: 14px; 
+  font-weight: 700;
+  width: 100%;
+  background-color: #000000;
+  color: #FFF;
+  padding: 10px 0 10px 0;
+  margin-top: auto; /* Fait remonter le footer en haut du reste de l'espace disponible */
+}
+
+.contact-page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#references, #portfolio {
+  color: #FFFFFF;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#references:hover, #portfolio:hover {
+  color: #9C83F6;
+}
+
+
+/* --REFERENCES-- */
+
+.ref-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/Neymar.jpg);
+  background-size: cover;
+  filter: blur(10px);
+  z-index: -1;
+  pointer-events: none; 
+}
+
+.ref-background {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.center-links a {
+  color: white; 
+  text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
